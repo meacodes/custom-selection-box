@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custom Selection Box</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="dist/styles.css">
+</head>
+<body>
+
+<div class="custom-select">
+  <label class="select-label" for="language">Select your favorite programming language:</label>
+  <div class="select-trigger">
+    <span>Select a Language</span>
+    <span class="icon-select">
+      <svg fill="#ffffff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+        <path d="M0-.75h24v24H0z" fill="none"/>
+      </svg>
+    </span>
+  </div>
+  <div class="select-options">
+    <div class="option">
+      <img class="option-icon" src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript">
+      <span>JavaScript</span>
+    </div>
+    <div class="option">
+      <img class="option-icon" src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
+      <span>Python</span>
+    </div>
+    <div class="option">
+      <img class="option-icon" src="https://img.icons8.com/color/48/000000/php.png" alt="PHP">
+      <span>PHP</span>
+    </div>
+    <div class="option">
+      <img class="option-icon" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="Java">
+      <span>Java</span>
+    </div>
+    <!-- Add more options as needed -->
+  </div>
+</div>
+<script src="dist/scripts.js"></script>
+</body>
+</html>
